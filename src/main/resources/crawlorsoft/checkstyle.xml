@@ -83,7 +83,9 @@
 
         <!-- JavaDoc Checks -->
         <module name="JavadocType" />
-        <module name="JavadocMethod" />
+        <module name="JavadocMethod">
+            <property name="allowUndeclaredRTE" value="true" />
+        </module>
         <module name="JavadocVariable" />
         <module name="JavadocStyle" />
 
